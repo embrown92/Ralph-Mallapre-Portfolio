@@ -1,0 +1,27 @@
+.spotify-embed-block {
+  border-radius: 12px;
+  height: auto;
+  width: 550px;
+  color: #fff;
+  background: #283c86;
+  background: -webkit-linear-gradient(
+    to left,
+    rgba(69, 162, 71, 0.7),
+    rgba(40, 60, 134, 0.7)
+  );
+  background: linear-gradient(
+    to left,
+    rgba(69, 162, 71, 0.7),
+    rgba(40, 60, 134, 0.7)
+  );
+}
+@media only screen and (max-width: 479px), only screen and (max-width: 768px) {
+  .spotify-embed-block {
+    width: auto;
+    height: 85px;
+  }
+  .spotify-embed-block iframe {
+    width: 450px;
+    height: 85px;
+  }
+}
