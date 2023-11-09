@@ -130,7 +130,7 @@ img {
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
-  background-image: url("/assets/img/bg.jpg");
+  background-image: url("./assets/img/bg.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -196,7 +196,7 @@ img {
 /*===== HOME =====*/
 .home {
   position: relative;
-  background-image: url("/assets/img/bg.jpg");
+  background-image: url("./assets/img/bg.jpg");
   overflow: hidden;
   background-size: cover;
   display: flex;
@@ -278,7 +278,7 @@ img {
 
 /* ===== SKILLS =====*/
 .skills {
-  background-image: url("/assets/img/mbg.jpg");
+  background-image: url("./assets/img/mbg.jpg");
   overflow: hidden;
   background-size: cover;
   background-attachment: fixed;
